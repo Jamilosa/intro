@@ -1,0 +1,50 @@
+baseURL = 'https://Jamilosa.github.io/intro/'  # Change to your actual server IP
+languageCode = 'en-us'
+title = 'My Portfolio'
+theme = "hugo-theme-m10c"
+
+[params]
+  author = "Ryan Jamilosa"
+  description = "Sample description"
+  avatar = "avatar.jpg"
+  menu_item_separator = " | "
+  favicon = "/favicon.ico"
+
+# Menu - Remove or adjust based on what you actually have
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Blog"
+  url = "/posts/"
+  weight = 20
+
+# Only include if you have tags content
+# [[menu.main]]
+#   identifier = "tags"
+#   name = "Tags"
+#   url = "/tags/"
+#   weight = 30
+
+# Only include if you have about.md
+# [[menu.main]]
+#   identifier = "about"
+#   name = "About"
+#   url = "/about/"
+#   weight = 40
+
+# Social links - Update with your actual links
+[[params.social]]
+  icon = "brand-github"
+  name = "GitHub"
+  url = "https://github.com/Jamilosa"  # Update this
+
+# Add more only if you use them
+# [[params.social]]
+#   icon = "mail"
+#   name = "Email"
+#   url = "mailto:your.email@example.com"
